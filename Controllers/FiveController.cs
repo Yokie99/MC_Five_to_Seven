@@ -15,11 +15,11 @@ public class FiveController : ControllerBase
     }
 
     [HttpGet]
-    [Route("hold")]
+    [Route("MadLib/{superheroName}/{city}/{animal}/{scaryThing}/{dessert}/{anime}")]
 
-    public string Mablib(string name)
+    public string Mablib(string superheroName, string city, string animal, string scaryThing, string dessert, string anime)
     {
-        return _fiveService.Mablib(name);
+        return _fiveService.Mablib(superheroName, city, animal, scaryThing, dessert, anime);
     }
 
 }

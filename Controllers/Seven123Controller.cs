@@ -15,7 +15,7 @@ public class Seven123Controller : ControllerBase
         _seven123Service = seven123Service;
     }
     [HttpGet]
-    [Route("hold")]
+    [Route("ReversedNum/{revNum}")]
     public string reverse123(string revMe)
     {
         return _seven123Service.reverse123(revMe);

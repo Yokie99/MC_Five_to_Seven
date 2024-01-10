@@ -16,7 +16,7 @@ namespace MC_Five_to_Seven.Controllers;
     }
 
     [HttpGet]
-    [Route("hold/{num}")]
+    [Route("OddOrEven/{num}")]
         public string OddOrEven(string num)
         {
             return _sixService.OddOrEven(num);

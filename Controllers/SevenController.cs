@@ -15,7 +15,7 @@ public class SevenController : ControllerBase
         _sevenService = sevenService;
     }
     [HttpGet]
-    [Route("hold")]
+    [Route("Reversed/{revMe}")]
     public string reverseABC(string revMe)
     {
         return _sevenService.reverseABC(revMe);
