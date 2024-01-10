@@ -8,6 +8,6 @@
 
 // 
 
-// Peer Reviewed By: 
+// Peer Reviewed By: Jayvon Khuth
 
-// Peer Review: 
+// Peer Review: I was able to get all the endpoint results on both postman and swagger, however there was a bug with the reversing numbers endpoint, because the parameter and route variable's didn't match up. When I ran the odd or even, when I got pass a certain amount of integers it would always give me the outcome of even. For the reversed Numbers one I also recommend that you maybe use the data type double, so that the user can input a long numbers and decials too. But overall, good job! I enjoyed the mad lib, keep up the good work.
